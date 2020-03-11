@@ -67,6 +67,10 @@ class PWAConfApp {
     return res.json();
   }
 }
+
+
+// Others functions
+
 window.addEventListener('load', e => {
   new PWAConfApp();
   registerSW()
