@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PWAQuill</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+
+    <meta name="theme-color" content="#2A3443" />
+    <meta
+      name="description"
+      content="PWA Tutorial Application for a fictional conference."
+    />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-title" content="PWAConf" />
+    <link rel="manifest" href="./manifest.json">  
+  </head>
+
+  <body>
+    <header>
+      <h1>QUILL</h1>
+      <nav>
+        <a href="./index.html">&lt;</a> 
+        <a href="#about">ABOUT</a>
+      </nav>
+    </header>
+
+    <div class="alert" role="alert" hidden>
+      Your browser does not support ServiceWorker. The app will not be available
+      offline.
+    </div>
+
+    <main>
+      <p>
+        Welcome to About Page for <b>QUILL</b> in sunny Qatar. 
+      </p>
+
+      <p> 
+        They're using our own satellites against us. And the clock is ticking. Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Hey, you know how I'm, like, always trying to save the planet? Here's my chance. Did he just throw my cat out of the window?
+      </p>
+      <p>
+        Yes, Yes, without the oops! Remind me to thank John for a lovely weekend. I gave it a cold? I gave it a virus. A computer virus. Hey, you know how I'm, like, always trying to save the planet? Here's my chance. So you two dig up, dig up dinosaurs? So you two dig up, dig up dinosaurs?
+      </p>
+
+      <p>
+        Learn how to build this app yourself by
+        <a href="https://vaadin.com/tutorials/learn-pwas">doing the tutorial</a
+        >.
+      </p>
+
+      <h2 id="schedule">Schedule</h2>
+      <p>All the presentations will be held in the main auditorium.</p>
+
+      <div class="schedule"><div class="loader" hidden>Loading...</div></div>
+
+      <h2 id="code-of-conduct">Code of conduct</h2>
+      <p>
+        All attendees are required to follow the
+        <a href="http://confcodeofconduct.com/">code of conduct</a>. Be nice to
+        everyone or get kicked out.
+      </p>
+    </main>
+    <footer>
+      <p>
+        This is the QUILL schedule. 2020
+      </p>
+
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
